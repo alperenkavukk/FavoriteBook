@@ -14,6 +14,8 @@
 		A2C8B92428B7DBA900545981 /* FavoriteBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B92328B7DBA900545981 /* FavoriteBookTests.swift */; };
 		A2C8B92E28B7DBA900545981 /* FavoriteBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B92D28B7DBA900545981 /* FavoriteBookUITests.swift */; };
 		A2C8B93028B7DBA900545981 /* FavoriteBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B92F28B7DBA900545981 /* FavoriteBookUITestsLaunchTests.swift */; };
+		A2C8B93D28B7DBF900545981 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B93C28B7DBF900545981 /* File.swift */; };
+		A2C8B93F28B7E41000545981 /* secondSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B93E28B7E41000545981 /* secondSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		A2C8B92928B7DBA900545981 /* FavoriteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoriteBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C8B92D28B7DBA900545981 /* FavoriteBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookUITests.swift; sourceTree = "<group>"; };
 		A2C8B92F28B7DBA900545981 /* FavoriteBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2C8B93C28B7DBF900545981 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A2C8B93E28B7E41000545981 /* secondSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				A2C8B91228B7DBA700545981 /* FavoriteBookApp.swift */,
 				A2C8B91428B7DBA700545981 /* ContentView.swift */,
+				A2C8B93C28B7DBF900545981 /* File.swift */,
+				A2C8B93E28B7E41000545981 /* secondSwiftUIView.swift */,
 				A2C8B91628B7DBA800545981 /* Assets.xcassets */,
 				A2C8B91828B7DBA800545981 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C8B93F28B7E41000545981 /* secondSwiftUIView.swift in Sources */,
 				A2C8B91528B7DBA700545981 /* ContentView.swift in Sources */,
+				A2C8B93D28B7DBF900545981 /* File.swift in Sources */,
 				A2C8B91328B7DBA700545981 /* FavoriteBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
